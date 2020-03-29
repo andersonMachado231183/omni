@@ -5,10 +5,6 @@ const IncidentController = require('./controllers/IncidentController');
 const ProfileController = require('./controllers/ProfileController');
 const SessionController = require('./controllers/SessionController');
 
-/*
- const connection = require('./database/connection');
- */
-
 const routes = express.Router();
 routes.post('/sessions', SessionController.create);
 
