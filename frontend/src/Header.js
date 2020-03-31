@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Header(){
+function Header({ children }){
     return (
         <header>
             <h1>
-                Be-the-hero
+                {children}
             </h1>
         </header>
     );
