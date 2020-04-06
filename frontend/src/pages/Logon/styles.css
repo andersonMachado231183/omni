@@ -24,21 +24,3 @@
     margin-bottom: 32px;
 }    
 /* .logon-container section.form form a */
-.linkar{
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    color: #41414d;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    transition: opacity 0.2s;
-}
-
-.linkar:hover {
-    opacity: 0.8;
-}
-
-.linkar svg{
-    margin-right: 8px;
-}
