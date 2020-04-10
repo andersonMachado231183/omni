@@ -11,7 +11,7 @@ export default function Profile(){
             <header>
                 <img src= { imgLogo }alt="Be the Hero"/>
                 <span>Bem vinda , APAD</span>
-                <Link className="button">
+                <Link className="button" to="incidents/new">
                     Cadastrar novo caso
                 </Link>
                 <button type="button">
@@ -72,7 +72,7 @@ export default function Profile(){
                     <strong>VALOR:</strong>
                     <p>120,00</p>
 
-                    <button type="button">
+                    <button  type="button">
                       < FiTrash2 size={20} color="#a8a8b3" />
                     </button>
                 </li>
